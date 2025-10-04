@@ -1,4 +1,4 @@
-﻿Use QLDA;
+Use QLNHATRO_NGOLEGIAANH;
 go
 
 CREATE TABLE LOAINHA (
@@ -40,6 +40,7 @@ CREATE TABLE DANHGIA (
     NoiDung NVARCHAR(MAX),
     NgayDanhGia DATE
 );
+
 INSERT INTO LOAINHA (TenLoai) VALUES
 (N'Nhà nguyên căn'),
 (N'Căn hộ mini'),
